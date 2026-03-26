@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Livros de Renato Alves</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #2563eb, #22c55e);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+    .book-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .book-cover {
+      width: 100%;
+      height: 340px;
+      object-fit: cover;
+      background: #ddd;
+    }
+    .book-body {
+      padding: 1rem 1.2rem;
+      flex: 1;
+    }
+    .tag {
+      background: #e0ecff;
+      color: #1d4ed8;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      display: inline-block;
+      margin-bottom: 0.4rem;
+    }
+    .book-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 0.3rem 0;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: #555;
+      line-height: 1.4;
+    }
+    .synopsis {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.8rem;
+      padding: 0.5rem 1rem;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Livros de Renato Alves</h1>
+  <p>Descobre histórias cheias de aventura, imaginação e mistério.</p>
+</header>
+
+<main>
+  <section class="grid">
+
+    <!-- O Cruzeiro dos Animais -->
+    <article class="book-card">
+      <img class="book-cover"
+           src="https://www.atlanticbookshop.pt/storage/media/cover/o-cruzeiro-dos-animais.jpg"
+           alt="Capa do livro O Cruzeiro dos Animais">
+      <div class="book-body">
+        <span class="tag">7 aos 10 anos</span>
+        <h2 class="book-title">O Cruzeiro dos Animais</h2>
+
+        <p class="meta">
+          Editora: Flamingo Edições<br>
+          Publicado em: 25/10/2021<br>
+          Páginas: 44<br>
+          ISBN: 978-989-37-2067-7
+        </p>
+
+        <p class="synopsis">
+          Acompanha a Gi, o Rafa, a Hippo, o Potter, a Elle e o Fant num cruzeiro
+          que passa pela Madeira, Portimão, Lisboa, Açores e Porto, numa aventura
+          divertida que dá a conhecer Portugal aos mais novos.
+        </p>
+
+        <a class="btn"
+           href="https://www.atlanticbookshop.pt/7-aos-10-anos/o-cruzeiro-dos-animais"
+           target="_blank">Comprar na Atlantic Bookshop</a>
+      </div>
+    </article>
+
+    <!-- A Magia dos Livros -->
+    <article class="book-card">
+      <img class="book-cover"
+           src="https://www.atlanticbookshop.pt/storage/media/cover/a-magia-dos-livros.jpg"
+           alt="Capa do livro A Magia dos Livros">
+      <div class="book-body">
+        <span class="tag">7 aos 10 anos</span>
+        <h2 class="book-title">A Magia dos Livros</h2>
+
+        <p class="meta">
+          Editora: Flamingo Edições<br>
+          Publicado em: 16/11/2022<br>
+          Páginas: 52<br>
+          ISBN: 978-989-37-4498-7
+        </p>
+
+        <p class="synopsis">
+          Alexandre, de oito anos, passa férias com o primo Tiago, de dez. Entre
+          futebol, brincadeiras e uma misteriosa mansão abandonada, descobrem
+          segredos que revelam o verdadeiro poder dos livros.
+        </p>
+
+        <a class="btn"
+           href="https://www.atlanticbookshop.pt/7-aos-10-anos/a-magia-dos-livros"
+           target="_blank">Comprar na Atlantic Bookshop</a>
+      </div>
+    </article>
+
+    <!-- A Viagem de Carro dos Animais -->
+    <article class="book-card">
+      <img class="book-cover"
+           src="https://www.atlanticbookshop.pt/storage/media/cover/a-viagem-de-carro-dos-animais.jpg"
+           alt="Capa do livro A Viagem de Carro dos Animais">
+      <div class="book-body">
+        <span class="tag">Infanto-juvenil</span>
+        <h2 class="book-title">A Viagem de Carro dos Animais</h2>
+
+        <p class="meta">
+          Editora: Flamingo Edições<br>
+          Publicado em: 24/10/2023<br>
+          Páginas: 66<br>
+          ISBN: 978-989-37-6561-6
+        </p>
+
+        <p class="synopsis">
+          Junta-te à Gi, ao Rafa, à Hippo, ao Potter, à Elle, ao Fant e à Fanty
+          numa viagem de carro por Portugal, cheia de descobertas, monumentos
+          icónicos e aventuras inesquecíveis.
+        </p>
+
+        <a class="btn"
+           href="https://www.atlanticbookshop.pt/infanto-juvenis/a-viagem-de-carro-dos-animais"
+           target="_blank">Comprar na Atlantic Bookshop</a>
+      </div>
+    </article>
+
+    <!-- A Tartaruga Madruga -->
+    <article class="book-card">
+      <img class="book-cover"
+           src="https://oficinadaescrita.com/wp-content/uploads/2024/01/a-tartaruga-madruga-capa.jpg"
+           alt="Capa do livro A Tartaruga Madruga">
+      <div class="book-body">
+        <span class="tag">Infanto-juvenil</span>
+        <h2 class="book-title">A Tartaruga Madruga</h2>
+
+        <p class="meta">
+          Editora: Oficina da Escrita<br>
+          Preço: 12,00 €
+        </p>
+
+        <p class="synopsis">
+          Madruga, uma tartaruga cheia de energia, vive no aquário do Simão.
+          Quando o seu brinquedo favorito desaparece, ela e o gato Félix iniciam
+          uma investigação divertida e cheia de mistério.
+        </p>
+
+        <a class="btn"
+           href="https://oficinadaescrita.com/produto/a-tartaruga-madruga/"
+           target="_blank">Comprar na Oficina da Escrita</a>
+      </div>
+    </article>
+
+  </section>
+</main>
+
+<footer>
+  Página informativa baseada nos dados públicos das editoras e livrarias.
+</footer>
+
+</body>
+</html>
